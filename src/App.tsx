@@ -1,7 +1,12 @@
 import React from "react";
+import Toggle from "./components/Toggle";
 
 function App() {
-  return <div className="bg-orange-800">hello</div>;
+  return (
+    <div>
+      <Toggle />
+    </div>
+  );
 }
 
 export default App;
