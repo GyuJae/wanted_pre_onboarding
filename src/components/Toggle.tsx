@@ -29,7 +29,7 @@ const Toggle = () => {
   const onDetailClick = () => setDetail(true);
 
   return (
-    <div className="py-10 flex justify-center items-center">
+    <div>
       <div className="relative w-96 bg-gray-200 h-14 rounded-full flex justify-around items-center">
         <Item setSelect={onStandClick} select={!detail} text={"기본"} />
         <Item setSelect={onDetailClick} select={detail} text={"상세"} />

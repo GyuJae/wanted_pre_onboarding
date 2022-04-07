@@ -35,7 +35,7 @@ const Slider = () => {
   const [value, setValue] = useState<string>("0");
 
   return (
-    <div className="py-10 flex flex-col justify-center items-center">
+    <div>
       <div className="w-96 py-3 px-2 flex justify-end items-center bg-gray-100 border-[1.5px] border-gray-200 rounded-md mb-5">
         <div className="text-lg font-semibold">{value}</div>
         <div className="text-gray-400 text-sm ml-7">%</div>

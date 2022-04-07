@@ -43,7 +43,7 @@ const Tab = () => {
     setSelect({ text: item, location: idx });
 
   return (
-    <div className="py-10 flex justify-center items-center ">
+    <div>
       <div className="flex relative">
         {items.map((item, idx) => (
           <Item
