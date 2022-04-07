@@ -1,4 +1,5 @@
 import React from "react";
+import Slider from "./components/Slider";
 import Tab from "./components/Tab";
 import Toggle from "./components/Toggle";
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Toggle />
       <Tab />
+      <Slider />
     </div>
   );
 }
