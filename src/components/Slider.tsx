@@ -42,6 +42,7 @@ const Slider = () => {
       </div>
       <div className="relative">
         <input
+          id="myRange"
           type="range"
           min="0"
           max="100"

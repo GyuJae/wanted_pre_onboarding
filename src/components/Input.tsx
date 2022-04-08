@@ -9,7 +9,7 @@ const EmailCheckerSvg: React.FC<{ emailCorrect: boolean }> = ({
       xmlns="http://www.w3.org/2000/svg"
       className={cls(
         "h-5 w-5 absolute top-3 right-2",
-        emailCorrect ? "text-green-400" : "text-gray-500"
+        emailCorrect ? "text-teal-500" : "text-gray-500"
       )}
       viewBox="0 0 20 20"
       fill="currentColor"
@@ -128,7 +128,7 @@ const Input = () => {
           />
           {showPassword ? (
             <EyeSvg
-              className="h-5 w-5 absolute top-3 right-2 text-green-400"
+              className="h-5 w-5 absolute top-3 right-2 text-teal-500"
               toggleShow={toggleUnShowPassword}
             />
           ) : (

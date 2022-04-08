@@ -57,11 +57,7 @@ const Tab = () => {
           <div
             className={cls(
               "bg-teal-500 w-1/3 h-full transition ease-in-out delay-150",
-              select.location === 0
-                ? translateXLocation(0)
-                : select.location === 1
-                ? translateXLocation(1)
-                : translateXLocation(2)
+              translateXLocation(select.location)
             )}
           />
         </div>
