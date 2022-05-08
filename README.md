@@ -1,4 +1,4 @@
-# refator git hub url
+# refator github url
 
 https://github.com/GyuJae/wanted_pre_onboarding_refatoring
 
